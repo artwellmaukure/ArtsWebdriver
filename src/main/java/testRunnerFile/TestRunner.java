@@ -6,7 +6,9 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 		
 		features= {"C:\\Users\\Ina Gous\\eclipse-workspace\\ArtsWebdriver\\src\\main\\resources\\Features\\Google.feature"},
-		glue = {"Stepdefinationsfile"}
+		glue = {"Stepdefinationsfile"},
+		dryRun = false,
+		monochrome = true		
 		
 		
 		

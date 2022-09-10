@@ -12,7 +12,7 @@ public class Stepdefination {
 	
 	WebDriver driver;
 	String siteurl = "https://google.com";
-	String expectedTitle = "Gogle";
+	String expectedTitle = "Google";
 	
 	@Given("I launch the browser")
 	public void i_launch_the_browser() {
