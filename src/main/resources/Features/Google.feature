@@ -1,7 +1,13 @@
-Feature:GooglePage Login
 
-Scenario:Google title presence on the home page
-Given I launch browser
-When I open the google page
-Then I verify that the title is Google
-And Close browser
+
+Feature: Google Login
+  
+
+  
+  Scenario: Login and verify title on google page
+    Given I launch the browser
+    And  I open Google home page
+    Then I validate page Title
+    And I close browser
+
+ 
